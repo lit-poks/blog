@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- Place all CSS for header in this file -->
+    <link href='css\header.css' rel='stylesheet' type='text/css'>
+
+    <!-- Place all CSS for the rest of the elements in this file -->
+    <link href='css\index.css' rel='stylesheet' type='text/css'>
+
+	<!-- Place all CSS for fonts in this file -->
+    <link href='css\font.css' rel='stylesheet' type='text/css'>
+    
+    <link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div id="main-container-div">
+
+        <div class="header">
+
+        	<!-- Insert code for Sign Up, Sign In button here. Add code for "ScriBBler" heading and the sub-heading -->
+            <div class="heading">
+                
+            <h1 id="scribbler">ScriBBler</h1>
+            <h4 style="color: black">Explore, Imagine, Create</h4>
+                
+            </div>    
+            
+            <div class="button-container">
+                
+            <button class="button button1" onclick="opensignIn()">Sign In</button>
+            <button class="button" onclick="opensignUp()">Sign Up</button>
+                
+            </div>
+
+        </div>
+           
+        <div class="postButtons">
+
+        	<!-- Insert code for All Posts & Create Post button here -->
+            <a href="html/bloglist.html"><button class="postButs">All Posts</button></a>
+            <button class="postButs" onclick="opencreate()">Create Post</button>
+
+        </div>
+    </div>
+
+    
+    <div class="signup-Container">
+        <div class="signupMod">
+        <h1 style="color: black;">Get Started</h1>
+            <hr>
+        <form name="signupp">
+            <label>Full Name</label><br>
+            <input type="text" name="fullname" placeholder="Enter Full Name" class="inputs" required><br>
+            
+            <label>Username</label><br>
+            <input type="text" name="username" placeholder="Enter Username" class="inputs" required><br>
+            <label>Password</label><br>
+            <input type="password" name="password" placeholder="Enter Password" class="inputs" required><br>
+            <label>Confirm Password</label><br>
+            <input type="password" name="confirmpass" placeholder="Confirm Password" class="inputs" required><br>
+            
+            <input type="submit" value="Sign Up" name="submit" class="inputs" id="signupButton">
+            
+            
+            
+            
+        </form>
+        
+        </div>
+    	<p class="signupclose" onclick="closesignUp()">+</p>
+
+    </div>
+
+    <div class="signin-Container">
+    	
+        <div class="signin-Mod">
+        <h1>Welcome Back!</h1>
+            <hr>
+            
+        <form name="signIn">
+            <label>Username</label><br>
+            <input type="text" name="username" placeholder="Enter Username" class="inputs" required><br>
+            
+            <label>Password</label><br>
+            <input type="password" name="password" placeholder="Enter Password" class="inputs" required><br>
+            
+             <input type="submit" value="Sign In" name="submit" class="inputs" id="signupButton"><br>
+            
+        </form>
+        <h3> Not a member? <a style="color: blue;cursor: pointer;" onclick="modalSignUp()">Sign Up</a></h3>
+            <p class="signinclose" onclick="closesignIn()">+</p>
+        
+        </div>
+    </div>
+
+    <div class="create-container">
+        <div class="create-modal">
+            <h1>Pen Your Post</h1>
+            <form name="create">
+            <label>Title</label><br>
+            <input type="text" name="title"  class="inputs"><br>
+                <label>Content:</label><br>
+            <textarea rows="12" cols="110"></textarea><br>
+            <input type="submit" value="Create" name="submit" class="inputs" id="createButton">
+            <p class="createclose" onclick="closecreate()">+</p>
+            
+                
+            </form>
+        
+        
+        </div>
+
+    </div>
+
+	<!-- Place all Javascript for header in this file -->
+	<script src="js\header.js"></script>
+	<!-- Place all Javascript for rest of the elements in this file -->
+    <script src="js\index.js"></script>
+
+</body>
+</html>

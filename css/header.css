@@ -1,0 +1,227 @@
+/* Set a style for all elements inside the header i.e. Sign Up button, Sign In button, 
+the title "ScriBBler" & the sub-heading below "ScriBBLer" */
+
+.header{
+    color: deepskyblue;
+    line-height: 80%;
+    display: flex;
+    
+}
+
+.heading {
+    width: 50%;
+    font-family: 'Satisfy', cursive;
+}
+
+.button-container{
+    display: inline;
+    width: 50%;
+}
+
+.button{
+    position: absolute;
+    right: 0px;
+    margin-top: 10px;
+    background-color: blue;
+    padding: 7px;
+    width: 130px;
+    height: 50px;
+    color: white;
+}
+.button1{
+   margin-right: 140px;
+}
+
+#scribbler{
+    font-size: 50px;
+}
+
+.postButtons{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+
+.postButs{
+    background-color: orange;
+    color: black;
+    height: 50px;
+    width: 130px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.signin-Container{
+            display: none;
+            background-color: rgba(0,0,0,0.7);
+            position:fixed;
+            height: 100%;
+            width:100%;
+            padding 20px;
+            left: 0px;
+            top: 0px;
+            color: beige;
+        z-index: 1;
+}
+
+.signup-Container{
+            display: none;
+            background-color: rgba(0,0,0,0.7);
+            position:fixed;
+            height: 100%;
+            width:100%;
+            padding 20px;
+            left: 0px;
+            top: 0px;
+            color: beige;
+    z-index: 1;
+}
+
+
+.signupMod{
+    background-color: white;
+            position: relative;
+            height: 80%;
+            width: 30%;
+            padding: 20px;
+            left: 35%;
+            top: 5%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: black;
+    
+}
+
+
+hr{
+    width: 100%;
+    background-color: black;
+}
+
+
+.inputs{
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin-top: 2%;
+    background-color: gainsboro;
+    border: none;
+}
+
+form{
+    margin-top: 4%;
+    width: 100%;
+}
+
+form label{
+    font-weight: bold;
+}
+
+#signupButton{
+    background-color: green;
+    height: 50px;
+    color: white;
+}
+
+.signupclose{
+    transform: rotate(45deg);
+    color: grey;
+    position: fixed;
+    top: 0px;
+    left: 63%;
+    font-size: 50px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+.signin-Mod{
+    background-color: white;
+            position: relative;
+            height: 60%;
+            width: 25%;
+            padding: 20px;
+            left: 35%;
+            top: 8%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: black;
+}
+
+
+.signinclose{
+    transform: rotate(45deg);
+    color: grey;
+    position: fixed;
+    top: 0px;
+    left: 60%;
+    font-size: 50px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.create-container{
+            display: none;
+            background-color: rgba(0,0,0,0.7);
+            position:fixed;
+            height: 100%;
+            width:100%;
+            padding 20px;
+            left: 0px;
+            top: 0px;
+            color: beige;
+}
+
+.create-modal{
+            background-color: white;
+            position: relative;
+            height: 70%;
+            width: 60%;
+            padding: 20px;
+            left: 15%;
+            top: 8%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: black;
+}
+
+
+#createButton{
+    background-color: green;
+    height: 50px;
+    width: 120px;
+    color: white;
+    margin-left: 45%;
+}
+
+
+.createclose{
+    transform: rotate(45deg);
+    color: grey;
+    position: fixed;
+    top: 0px;
+    left: 73%;
+    font-size: 50px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
